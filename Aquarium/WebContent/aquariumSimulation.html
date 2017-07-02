@@ -1,0 +1,94 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/aquariumStyle.css" type="text/css">
+		<title> Aquarium </title>
+
+		<script language="javascript" type="text/javascript" src="libraries/p5/p5.js"></script>
+		<script language="javascript" type="text/javascript" src="libraries/jquery-3.1.1/jquery-3.1.1.js"></script>
+		<!-- uncomment lines below to include extra p5 libraries -->
+		<!-- <script language="javascript" src="libraries/p5/p5.play.js"></script> -->
+		<script language="javascript" src="libraries/p5/p5.collide2d.js"></script>
+		<script language="javascript" src="libraries/p5/p5.dom.js"></script>
+		<script language="javascript" src="libraries/p5/p5.sound.js"></script>
+		
+		<script language="javascript" src="sketch.js"></script>
+
+	</head>
+
+	<body>
+		<table>
+		    <thead>
+		        <tr>
+		            <th rowspan="3">
+		            	<div id="statistics-menu">
+		            		Day:
+		            		<div id="day-timer">
+
+		            		</div>
+		            		<hr>
+		            		Time: 
+							<div id="lifespan-timer">
+							
+							</div>
+							<hr>
+							Money: 
+							<div id="money-amount">
+							
+							</div>
+							<hr>
+							Food:
+							<div id="food-stock-info">
+
+							</div>
+							<hr>
+							Air:
+							<div id="air-stock-info">
+
+							</div>
+							<br>
+							<div id="save-option">
+
+							</div>
+						</div>
+		            </th>
+		            <th colspan="4" rowspan="2" id="aquarium-cell">
+			            <div id="aquarium-tank">
+
+						</div>&nbsp;
+		            </th>
+		        </tr>
+		    </thead>
+		    <tbody>
+		        <tr>
+		        <div id="	action-options">
+		        	<td>
+		        		<div id="buy-option">
+
+		        		</div>
+		        	</td>
+
+		            <td>
+		            	<div id="sell-option">
+
+		        		</div>
+		            </td>
+
+		            <td>
+		            	<div id="air-option"> <!--inventory-select-->
+
+		            	</div>
+		            </td>
+
+		            <td>
+		            	<div id="feed-option">
+
+		            	</div>
+		            </td>
+				</div>
+		            
+		        </tr>
+		    </tbody>
+		</table>		
+	</body>
+</html>
